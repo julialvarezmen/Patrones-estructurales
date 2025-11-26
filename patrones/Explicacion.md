@@ -204,7 +204,7 @@ El poder del Composite está en que `producto.getPrice()` y `caja.getPrice()` fu
 
 ---
 
-## 📝 RESUMEN PARA ESTUDIANTES
+## 📝 RESUMEN
 
 **Patrón Composite = "Todo es un Component"**
 
