@@ -1,3 +1,5 @@
+package com.patrones.Decorator;
+
 /**
  * Decorador EmbalajeDeLujo: añade embalaje de lujo al producto.
  * Incrementa el precio en 8.00 y añade descripción.

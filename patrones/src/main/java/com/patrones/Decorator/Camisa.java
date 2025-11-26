@@ -1,3 +1,5 @@
+package com.patrones.Decorator;
+
 /**
  * Clase Camisa: representa el componente base que será decorado.
  * Define un producto base con su precio y descripción iniciales.

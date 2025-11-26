@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AgentMigrationStateService">
+    <option name="pendingSessionIds">
+      <option value="09cfd25d-968b-4839-a9c1-842944cda266" />
+    </option>
+    <option name="pendingTurns">
+      <map>
+        <entry key="09cfd25d-968b-4839-a9c1-842944cda266">
+          <value>
+            <set>
+              <option value="8918e3e6-74af-49c1-8272-6a07b9821f55" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <pendingWorkingSetItems>
+      <entry key="09cfd25d-968b-4839-a9c1-842944cda266">
+        <set>
+          <option value="file://$PROJECT_DIR$/patrones/src/main/java/com/patrones/Decorator/BordadoPersonalizado.java" />
+          <option value="file://$PROJECT_DIR$/patrones/src/main/java/com/patrones/Decorator/Camisa.java" />
+          <option value="file://$PROJECT_DIR$/patrones/src/main/java/com/patrones/Decorator/DecoradorProductoBase.java" />
+          <option value="file://$PROJECT_DIR$/patrones/src/main/java/com/patrones/Decorator/DecoratorPattern.java" />
+          <option value="file://$PROJECT_DIR$/patrones/src/main/java/com/patrones/Decorator/EmbalajeDeLujo.java" />
+          <option value="file://$PROJECT_DIR$/patrones/src/main/java/com/patrones/Decorator/IProducto.java" />
+        </set>
+      </entry>
+    </pendingWorkingSetItems>
+  </component>
+</project>

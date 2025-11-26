@@ -1,3 +1,5 @@
+package com.patrones.Decorator;
+
 /**
  * Decorador BordadoPersonalizado: añade bordado personalizado al producto.
  * Incrementa el precio en 15.00 y añade descripción.

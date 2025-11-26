@@ -1,3 +1,5 @@
+package com.patrones.Decorator;
+
 /**
  * Interfaz que define el contrato para los productos.
  * Tanto las clases concretas como los decoradores implementan esta interfaz.

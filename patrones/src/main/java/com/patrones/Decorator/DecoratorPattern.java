@@ -1,3 +1,5 @@
+package com.patrones.Decorator;
+
 /**
  * Implementación del Patrón Decorator en Java
  * 

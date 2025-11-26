@@ -1,3 +1,5 @@
+package com.patrones.Decorator;
+
 /**
  * Clase abstracta DecoradorProductoBase: implementa el patrón Decorator.
  * Contiene una referencia a un IProducto y delega las llamadas a sus métodos.
