@@ -1,4 +1,4 @@
-package com.pagos.adapter;
+package com.patrones.adapter;
 
 /**
  * NequiAdapter

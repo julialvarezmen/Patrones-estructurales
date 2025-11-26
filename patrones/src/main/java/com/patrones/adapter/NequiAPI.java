@@ -1,4 +1,4 @@
-package com.pagos.adapter;
+package com.patrones.adapter;
 
 /**
  * NequiAPI (simulación de librería antigua/incompatible)
