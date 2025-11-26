@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group = 'com.benfit.reports'
@@ -17,4 +18,31 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+// Configuración para ejecutar los ejemplos de Composite
+application {
+    mainClass = 'com.patrones.Composite.CompositeExample'
+}
+
+// Tareas personalizadas para ejecutar cada ejemplo
+task runCompositeExample(type: JavaExec) {
+    group = 'application'
+    description = 'Ejecuta el ejemplo con patrón Composite'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'com.patrones.Composite.CompositeExample'
+}
+
+task runWithoutComposite(type: JavaExec) {
+    group = 'application'
+    description = 'Ejecuta el ejemplo sin patrón Composite'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'com.patrones.Composite.WithoutComposite'
+}
+
+task runAntiPattern(type: JavaExec) {
+    group = 'application'
+    description = 'Ejecuta el ejemplo de anti-patrón'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'com.patrones.Composite.AntiPattern'
 }
