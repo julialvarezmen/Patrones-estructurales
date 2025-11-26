@@ -1,4 +1,4 @@
-package com.patrones.estructurales.facade;
+package com.patrones.facade;
 
 public class Contexto {
     public static void main(String[] args) {
