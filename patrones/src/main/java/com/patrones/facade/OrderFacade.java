@@ -1,4 +1,4 @@
-package com.patrones.estructurales.facade;
+package com.patrones.facade;
 
 import com.patrones.estructurales.facade.sistemas.complejos.InventorySystem;
 import com.patrones.estructurales.facade.sistemas.complejos.PaymentSystem;
