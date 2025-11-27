@@ -8,7 +8,7 @@ package com.patrones.Decorator;
 public abstract class DecoradorProductoBase implements IProducto {
     // Referencia al objeto siendo decorado
     protected IProducto productoDecorado;
-    
+
     /**
      * Constructor que acepta el producto a decorar.
      * @param productoDecorado el producto que será decorado
@@ -16,7 +16,7 @@ public abstract class DecoradorProductoBase implements IProducto {
     public DecoradorProductoBase(IProducto productoDecorado) {
         this.productoDecorado = productoDecorado;
     }
-    
+
     /**
      * Delega la llamada al producto decorado.
      * Los decoradores concretos pueden sobrescribir este método.
@@ -25,7 +25,7 @@ public abstract class DecoradorProductoBase implements IProducto {
     public double obtenerPrecio() {
         return productoDecorado.obtenerPrecio();
     }
-    
+
     /**
      * Delega la llamada al producto decorado.
      * Los decoradores concretos pueden sobrescribir este método.
